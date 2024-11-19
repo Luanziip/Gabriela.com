@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "uma api multifuncional desenvolvida pra fins de estudo.",
+  "main": "./server/index.js",
+  "scripts": {
+    "start": "node ./server/index.js",
+    "dev": "node --watch --no-warnings ./server/index.js"
+  },
+  "author": "@indiuzin 🥷",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@prisma/client": "^5.19.1",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "terminal-kit": "^3.1.1"
+  },
+  "devDependencies": {
+    "cfonts": "^3.3.0",
+    "prisma": "^5.19.1",
+    "ws": "^8.18.0"
+  }
+}
